@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "buffet",
+  "version": "1.0.0",
+
+  "name": "Buffet",
+  "description": "Adds a buffet of new foods for you to pick from",
+  "authors": [
+    "IzukiKa"
+  ],
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.izukika.buffet.BuffetMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  },
+  "suggests": {
+  }
+}
